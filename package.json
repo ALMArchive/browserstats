@@ -1,0 +1,45 @@
+{
+  "author": {
+    "name": "Alessandro Maclaine"
+  },
+  "bugs": {
+    "url": "https://github.com/ALMaclaine/browserstats/issues"
+  },
+  "dependencies": {
+    "csv-parse": "^1.2.4",
+    "jsonfile": "^4.0.0",
+    "request": "^2.83.0"
+  },
+  "description": "Data set and javascript library based on statcounter.com browser size statistics.",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "homepage": "https://github.com/ALMaclaine/browserstats#readme",
+  "keywords": [
+    "Browser",
+    "Stats",
+    "Statistics",
+    "Screen",
+    "Size",
+    "Resolution",
+    "Stat",
+    "Counter",
+    "Data"
+  ],
+  "license": "MIT",
+  "main": "browserstats.js",
+  "name": "browserstats",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALMaclaine/browserstats.git"
+  },
+  "scripts": {
+    "c2j": "node data/csvToJson.js",
+    "dl": "node data/downloadCSV.js",
+    "ex": "node ex/main-example.js",
+    "exAll": "node ex/runAll.js",
+    "test": "mocha test"
+  },
+  "version": "0.1.5"
+}
