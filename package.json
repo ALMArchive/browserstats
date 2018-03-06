@@ -3,7 +3,7 @@
     "name": "Alessandro Maclaine"
   },
   "bugs": {
-    "url": "https://github.com/ALMaclaine/browserstats/issues"
+    "url": "https://github.com/almtechhub/browserstats/issues"
   },
   "dependencies": {
     "csv-parse": "^1.2.4",
@@ -15,7 +15,7 @@
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
   },
-  "homepage": "https://github.com/ALMaclaine/browserstats#readme",
+  "homepage": "https://github.com/almtechhub/browserstats#readme",
   "keywords": [
     "Browser",
     "Stats",
@@ -32,7 +32,7 @@
   "name": "browserstats",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ALMaclaine/browserstats.git"
+    "url": "git+https://github.com/almtechhub/browserstats.git"
   },
   "scripts": {
     "c2j": "node data/csvToJson.js",
